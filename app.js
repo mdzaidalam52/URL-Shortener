@@ -43,7 +43,7 @@ app.post("/", function (req, res) {
   } else {
     res.render("index", {
       bool: false,
-      output: "This is an invalid url",
+      short: "This is an invalid url",
     });
   }
 });
