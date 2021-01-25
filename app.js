@@ -37,7 +37,7 @@ app.post("/", function (req, res) {
       }
       res.render("index", {
         bool: true,
-        short: "The shortened url is " + shortened,
+        short: "The shortened url is " + "https://cryptic-waters-74246.herokuapp.com/" + shortened,
       });
     });
   } else {
